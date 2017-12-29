@@ -1,0 +1,41 @@
+---source code management 
+git hub an open source code management system
+provide necessary description from google
+
+
+bsic layout---front-end---
+*** css3
+****ajax
+** html5
+***bootstrap for advanced design templates
+***ajax lIBRARY for animation 
+
+
+
+backend---
+--- for storing databse 
+*** google firebase( for real time database mangement )
+
+ this helps in retrieveing and saving the data entered by the user 
+
+https://en.wikipedia.org/wiki/Firebase
+(for more info abt the firebase)
+
+----for database management 
+***jquery
+
+---text editor 
+***atom(an open source text editor)
+
+---for live website hosting 
+***git hub live hosting for static websites.
+
+----for server 
+****git hub 
+
+
+
+
+
+ 
+
