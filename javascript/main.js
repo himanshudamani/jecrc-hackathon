@@ -40,6 +40,7 @@ function saveMessage(name, company, email, phone, message){
     company:company,
     email:email,
     phone:phone,
-    message:message
+    message:message,
+    gender:gender  
   });
 }
