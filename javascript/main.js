@@ -1,10 +1,10 @@
 var config = {
-    apiKey: "xxxxxxx",
-    authDomain: "xxxxxxxxxxx",
-    databaseURL: "xxxxxxxxxx",
-    projectId: "xxxxxx",
+    apiKey: "AIzaSyCss2YpS6Orxyb76nJhWUam0NUitu2dN64",
+    authDomain: "jecrc-hackathon.firebaseapp.com",
+    databaseURL: "https://jecrc-hackathon.firebaseio.com",
+    projectId: "jecrc-hackathon",
     storageBucket: "",
-    messagingSenderId: "xxxxx"
+    messagingSenderId: "1043386055663"
 };
 firebase.initializeApp(config);
 
@@ -19,6 +19,7 @@ function submitForm(e){
   var email = getInputVal('email');
   var phone = getInputVal('phone');
   var message = getInputVal('message');
+  var gender = getInputVal('gender');  
   saveMessage(name, company, email, phone, message);
   document.querySelector('.alert').style.display = 'block';
 
