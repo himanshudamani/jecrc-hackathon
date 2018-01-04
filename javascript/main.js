@@ -3,7 +3,7 @@ var config = {
     authDomain: "jecrc-hackathon.firebaseapp.com",
     databaseURL: "https://jecrc-hackathon.firebaseio.com",
     projectId: "jecrc-hackathon",
-    storageBucket: "",
+    storageBucket: "jecrc-hackathon.appspot.com",
     messagingSenderId: "1043386055663"
 };
 firebase.initializeApp(config);
