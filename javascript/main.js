@@ -19,7 +19,6 @@ function submitForm(e){
   var email = getInputVal('email');
   var phone = getInputVal('phone');
   var message = getInputVal('message');
-  var gender = getInputVal('gender');  
   saveMessage(name, company, email, phone, message);
   document.querySelector('.alert').style.display = 'block';
 
@@ -40,7 +39,6 @@ function saveMessage(name, company, email, phone, message){
     company:company,
     email:email,
     phone:phone,
-    message:message,
-    gender:gender  
+    message:message
   });
 }
